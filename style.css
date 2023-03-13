@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    height: 100vh;
+    background-color: #1e023a;
+    
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 40px;
+
+}
+
+
+#digital {
+    color: #0000ff;
+}
+
+.fundo {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.relogio {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 4px;
+    box-shadow: 0px 8px 10px  rgba( 0, 0, 0, .5);
+    color: white;
+
+}
+
+.relogio div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: rgba( 0, 0, 5, .9);
+    box-shadow: 5px 5px 15px rgb(0, 0, 0, .7);
+    border-radius: 10px;
+    letter-spacing: 2px;
+} 
+
+.tempo {
+    font-size: 16px;
+}
