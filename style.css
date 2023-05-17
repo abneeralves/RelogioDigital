@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
 
 * {
     margin: 0%;
@@ -7,30 +8,20 @@
 }
 
 body {
-    height: 100vh;
-    background-color: #1e023a;
-    
+    background-image: url(./fotos/FotoDeFundo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.titulo {
-    color: white;
-    text-align: center;
-    font-family: 'Shantell Sans', cursive;
-    font-size: 40px;
-
-}
-
-
-#digital {
-    color: #0000ff;
-}
 
 .fundo {
-    height: 90vh;
+    height: 100vh;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-
+    align-items: center;
+    
 }
 
 
@@ -65,4 +56,12 @@ body {
 
 .tempo {
     font-size: 16px;
+}
+
+.logos {
+    font-family: 'Caveat', cursive;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);  
+    display: inline-block;
+    margin: 7px 2px 0px 0px;
 }
