@@ -14,16 +14,13 @@ body {
     background-position: center;
 }
 
-
 .fundo {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
 }
-
 
 .relogio {
     font-family: 'Open Sans', sans-serif;
@@ -37,7 +34,6 @@ body {
     border-radius: 4px;
     box-shadow: 0px 8px 10px  rgba( 0, 0, 0, .5);
     color: white;
-
 }
 
 .relogio div {
