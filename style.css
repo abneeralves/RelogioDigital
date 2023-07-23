@@ -63,10 +63,6 @@ body {
 }
 
 @media (max-width: 555px) {
-    body {
-        background-size: 100% 100%;
-    }
-
     .relogio {
         width: 375px;
     } 
